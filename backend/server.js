@@ -10,15 +10,16 @@ app.use(cors({ origin: "https://dev-waki.web.app" })); // Replace with your fron
 app.use(express.json());
 app.use("/", router);
 app.listen(5000, () => console.log("Server Running on port 5000"));
-
+console.log(process.env.EMAIL_USER);
+console.log(process.env.EMAIL_PASS);
 // Nodemailer transporter
 const contactEmail = nodemailer.createTransport({
 
   service: "gmail",
   auth: {
     
-    user: process.env.EMAIL_USER,
-    pass: process.env.EMAIL_PASS,
+    user: "wickliffntarangwi@gmail.com",
+    pass: "epfr rcnb lgek rjbg"
   },
 });
 
