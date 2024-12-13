@@ -18,8 +18,8 @@ const contactEmail = nodemailer.createTransport({
   service: "gmail",
   auth: {
     
-    user: "wickliffntarangwi@gmail.com",
-    pass: "epfr rcnb lgek rjbg"
+    user: process.env.EMAIL_USER,
+    pass: process.env.EMAIL_PASS,
   },
 });
 
