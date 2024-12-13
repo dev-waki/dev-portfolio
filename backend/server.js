@@ -6,7 +6,7 @@ const nodemailer = require("nodemailer");
 
 // Server setup
 const app = express();
-app.use(cors({ origin: "http://localhost:3000" })); // Replace with your frontend domain
+app.use(cors({ origin: "https://dev-waki.web.app" })); // Replace with your frontend domain
 app.use(express.json());
 app.use("/", router);
 app.listen(5000, () => console.log("Server Running on port 5000"));
