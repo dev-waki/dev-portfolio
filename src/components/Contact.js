@@ -22,11 +22,10 @@ export const Contact = () => {
         [category]: value
       })
   }
-  const apiUrl = process.env.REACT_APP_API_URL;
   const handleSubmit = async (e) => {
     e.preventDefault();
     setButtonText("Sending...");
-    let response = await fetch("${apiUrl}/contact", {
+    let response = await fetch("https://dev-waki.onrender.com/contact", {
       method: "POST",
       headers: {
         "Content-Type": "application/json;charset=utf-8",
