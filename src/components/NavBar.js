@@ -58,9 +58,9 @@ export const NavBar = () => {
             </Nav>
             <span className="navbar-text">
               <div className="social-icon">
-                <a href="#"><img src={navIcon1} alt="" /></a>
-                <a href="#"><img src={navIcon2} alt="" /></a>
-                <a href="#"><img src={navIcon3} alt="" /></a>
+                <a href="https://www.linkedin.com/in/wickliff-ntarangwi-91b1b1304?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><img src={navIcon1} alt="" /></a>
+                <a href="https://www.facebook.com/share/14uL8Cvrm1/"><img src={navIcon2} alt="" /></a>
+                <a href="https://www.instagram.com/wykientara?igsh=dXNzemloemFiMDkw"><img src={navIcon3} alt="" /></a>
               </div>
               
             </span>

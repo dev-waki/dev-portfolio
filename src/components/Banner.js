@@ -55,14 +55,14 @@ export const Banner = () => {
             <TrackVisibility>
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                <span className="tagline">Welcome to my Portfolio</span>
-                <h1>{`Hi! I'm wickliff murangiri`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Web Designer" ]'><span className="wrap">{text}</span></span></h1>
+                <span className="tagline">Explore my work, and let’s connect! 🚀</span>
+                <h1>{`Hi! I'm wickliff Ntarangwi`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Web Designer" ]'><span className="wrap">{text}</span></span></h1>
                   <p>Ability to debug complex issues efficiently. </p>
                 
                      <p> Strong logical reasoning to translate user requirements into functional web solutions.</p>
 
                      <p> Creative thinking to innovate and enhance web functionality and user experience..</p>
-                  <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
+                  
               </div>}
             </TrackVisibility>               
               
